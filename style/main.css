@@ -3,9 +3,21 @@ body{
   margin: 0;
 }
 
-div{
+.top_box{
   background-color: #c3edea;
   /*margin-top: 0;*/
+}
+
+.middle_box{
+  background-color: #edf05a;
+  height: 200px;
+  width: 200px;
+}
+
+.bottom_box{
+  background-color: #4513af;
+  height: 200px;
+  width: 200px;
 }
 
 h1{
