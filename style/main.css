@@ -1,11 +1,36 @@
 body{
   background-color: #903d89;
   margin: 0;
+  text-align: center;
 }
 
 .top_box{
   background-color: #c3edea;
-  /*margin-top: 0;*/
+  position: relative;
+  padding-top: 100px;
+
+  /*height: 350px;*/
+}
+
+.top_cloud{
+  height: 150px;
+  position: absolute;
+  right: 300px;
+  top: 5px;
+}
+
+.bottom_cloud{
+  height: 150px;
+  position: absolute;
+  left: 350px;
+  bottom: 250px;
+}
+
+.mountains{
+  width: 600px;
+  height: 250px;
+  position: relative;
+  bottom: 0;
 }
 
 .middle_box{
