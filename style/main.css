@@ -2,6 +2,7 @@ body{
   background-color: #903d89;
   margin: 0;
   text-align: center;
+  font-family: 'Markazi Text', serif;
 }
 
 .top_box{
@@ -47,6 +48,15 @@ body{
 
 h1{
   margin-top: 0;
+  font-family: 'Merienda', cursive;
+}
+
+h2{
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h3{
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .web_under{
