@@ -5,6 +5,8 @@ body{
   font-family: 'Markazi Text', serif;
 }
 
+
+
 .top_box{
   background-color: #c3edea;
   position: relative;
@@ -34,16 +36,14 @@ body{
   bottom: 0;
 }
 
+
+
 .middle_box{
-  background-color: #edf05a;
-  height: 200px;
-  width: 200px;
+
 }
 
 .bottom_box{
-  background-color: #4513af;
-  height: 200px;
-  width: 200px;
+
 }
 
 h1{
@@ -57,6 +57,11 @@ h2{
 
 h3{
   font-family: 'PT Sans Narrow', sans-serif;
+}
+
+p{
+  font-family: 'Markazi Text', serif;
+  font-size: 1em;
 }
 
 .web_under{
