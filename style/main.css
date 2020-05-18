@@ -1,12 +1,56 @@
 body{
   /*background-color: #bdc8d4;*/
   background-color: #dbe6f1;
+  color: #40514E;
   font-family: 'Markazi Text', serif;
   margin: 0;
   text-align: center;
 }
 
+hr{
+  border: dotted #11999E 10px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
 
+h1{
+  color: #66BFBF;
+  font-family: 'Merienda', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 3.625rem;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 3rem;
+}
+
+p{
+  font-family: 'Markazi Text', serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+a{
+  color: #11999E;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 2rem;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
 
 .top_box{
   /*background-color: #c3edea;*/
@@ -27,8 +71,6 @@ body{
   height: 150px;
   left: 350px;
   position: absolute;
-
-
 }
 
 .mountains{
@@ -36,17 +78,25 @@ body{
   height: 250px;
   width: 600px;
   position: relative;
-
 }
 
+.middle_box{
+  margin: 100px 0;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
 
 .skill_row{
   width: 50%;
   /*display: inline-block;*/
-  line-height: 1.5;
+
   margin: 100px auto 100px;
   text-align: left;
 }
+
 .cook_pic{
   float: right;
   margin-left: 30px;
@@ -59,36 +109,49 @@ body{
   width: 30%;
 }
 
-
-h1{
-  color: #66BFBF;
-  font-family: 'Merienda', cursive;
-  font-size: 5.625rem;
-  margin: 50px auto 0;
+.contact{
+  width: 40%;
+  margin: 40px auto 60px;;
 }
 
-h2{
-  color: #66BFBF;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 3.625rem;
+.button_contact {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-family: Arial;
+   font-size: 30px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #11999E;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
 }
 
-h3{
-  color: #11999E;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 3rem;
-}
-
-p{
-  font-family: 'Markazi Text', serif;
-  font-size: 2.25rem;
-}
-
-a{
-  color: #11999E;
-  font-size: 1.625rem;
+.button_contact:hover {
+   background: #1E62D0;
+   border: solid #337FED 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
 
 .web_under{
   text-decoration: underline;
+}
+
+.bottom_box{
+  background-color: #7e89b8;
+  padding: 50px 0 20px;
+}
+
+.bottom_box p{
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0;
 }
