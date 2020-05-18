@@ -1,5 +1,4 @@
 body{
-  /*background-color: #bdc8d4;*/
   background-color: #dbe6f1;
   color: #40514E;
   font-family: 'Markazi Text', serif;
@@ -53,10 +52,8 @@ a:hover{
 }
 
 .top_box{
-  /*background-color: #c3edea;*/
   position: relative;
   padding-top: 100px;
-  /*height: 350px;*/
 }
 
 .top_cloud{
@@ -91,8 +88,6 @@ a:hover{
 
 .skill_row{
   width: 50%;
-  /*display: inline-block;*/
-
   margin: 100px auto 100px;
   text-align: left;
 }
